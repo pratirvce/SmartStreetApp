@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btn_fb_login"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="#696969"
+        android:text="Facebook Login"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:allowUndo="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="125dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/emailButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="#696969"
+        android:text="eMail Login"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:allowUndo="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="92dp"
+        android:layout_below="@+id/btn_fb_login"
+        android:layout_centerHorizontal="true"
+        android:keepScreenOn="false" />
+</RelativeLayout>
